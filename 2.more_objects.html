@@ -53,7 +53,7 @@
       });
       
       mesh = new THREE.Mesh(geometry, material);
-      mesh.position.set(0, 0, -1);
+      mesh.position.set(0, 0, -0.5);
       scene.add(mesh);
       
       // Add a second torus shape to the scene
@@ -62,7 +62,7 @@
         color: new THREE.Color("rgb(253,253,150)") 
       });
       mesh2 = new THREE.Mesh(geometry2, material2);
-      mesh2.position.set(0, 0, -2);
+      mesh2.position.set(0, 0, -1);
       scene.add(mesh2);
 
 			document.body.appendChild(ARButton.createButton(renderer));
